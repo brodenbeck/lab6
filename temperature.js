@@ -8,8 +8,11 @@ function convertTemp(temp, toUnit) {
 		console.log(temp + " degrees Fahrenheit converts to " + convertedTemp + " degrees Celsius.");
 	}
 	else {
-		console.log('Please enter your temperature unit as either Celsius ("C") or Fahrenheit ("F").')
+		console.log('Please enter your temperature unit as either Celsius ("C") or Fahrenheit ("F"). Refresh the page to restart.')
 	}
 }
 
-convertTemp(32, "C");
+var temp = prompt("What temperature do you want to convert from? Enter just the number.");
+var toUnit = prompt('What unit of temperature do you want to convert to? Enter either "F" or "C".');
+
+convertTemp(temp, toUnit);
