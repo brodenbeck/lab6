@@ -1,5 +1,3 @@
-// bonus: get these inputs from the user using a prompt
-
 function convertTemp(temp, toUnit) {
 	if(toUnit === "F") {
 		convertedTemp = (temp * 9/5 + 32);
