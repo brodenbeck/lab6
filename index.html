@@ -1,10 +1,29 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Temperature Converter - Function</title>
-	<script type="text/javascript" src="temperature.js"></script>
-</head>
-<body>
+	<head>
+		<title>Temperature Converter</title>
+		<link rel="stylesheet" type="text/css" href="styles.css">
+	</head>
 
-</body>
+	<body>
+		<div class="wrapper">
+			<h1>Temperature Converter</h1>
+
+			<form>
+				<div class="inputs">
+					<input id="temperature" placeholder="input your temperature" type="text" />
+					<select id="units">
+						<option value="fahrenheit">Celsius to Fahrenheit</option>
+						<option value="celsius">Fahrenheit to Celsius</option>
+					</select>
+				</div><!-- ends inputs -->
+				
+				<button id="button" type="button">Convert</button>
+			</form>
+
+			<p id="conversion"></p>
+		</div><!-- ends wrapper -->
+
+		<script type="text/javascript" src="temperature.js"></script>
+	</body>
 </html>

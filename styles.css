@@ -1,0 +1,50 @@
+body {
+  background-color: #d3e298;
+}
+.wrapper {
+  background-color: #96b031;
+  width: 50%;
+  margin: 20px auto;
+}
+h1 {
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 1px solid #fdfffc;
+  color: #fdfffc;
+  font-family: 'Raleway', sans-serif;
+}
+form {
+  padding: 20px;
+  margin: 20px;
+}
+.inputs {
+  display: inline;
+  clear: both;
+  margin: 10px auto;
+  font-family: 'Raleway', sans-serif;
+}
+input {
+  width: 100%;
+}
+select {
+  width: 100%;
+  margin: 10px auto;
+  font-family: 'Raleway', sans-serif;
+}
+button {
+  display: block;
+  margin: 10px auto;
+  font-family: 'Raleway', sans-serif;
+}
+p {
+  font-family: 'Raleway', sans-serif;
+  padding-bottom: 20px;
+  text-align: center;
+  color: #fdfffc;
+}
+@media (max-width: 600px) {
+  .wrapper {
+    width: 300px;
+  }
+}
